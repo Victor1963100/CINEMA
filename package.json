@@ -1,0 +1,24 @@
+{
+  "name": "cinema",
+  "version": "1.0.0",
+  "description": "homework",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "cucumber": "cucumber-js"
+  },
+  "author": "Victor Petrunin",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.0.0-rc.1",
+    "chai": "^4.3.7",
+    "jest": "^27.5.1",
+    "jest-puppeteer": "^6.2.0",
+    "package-name": "^0.1.0",
+    "puppeteer": "^11.0.0"
+  },
+  "dependencies": {
+    "cucumber": "^6.0.7",
+    "cypress": "^12.9.0"
+  }
+}
